@@ -88,7 +88,7 @@ if menu == "🏠 Beranda":
     ### 🌟 Selamat Datang di **Pendeteksi Kelayakan Konsumsi Makanan**!  
     Aplikasi ini dirancang untuk membantu Anda mengonsumsi makanan yang **sehat** dan **aman** dengan fitur menarik berikut:
 
-    - 📅 **Pengecekan Tanggal Kedaluwarsa**: Pantau masa simpan makanan agar tetap aman.  
+    - 📅 **Pengecekan Tanggal Kelayakan makanan**: Pantau masa simpan makanan agar tetap aman.  
     """)
 
     # Catatan di bagian bawah
@@ -141,7 +141,6 @@ if menu == "🧮 Penilaian Kelayakan Makanan":
 
 # Menampilkan pilihan bahan makanan berdasarkan kategori yang dipilih
 if menu == "🧮 Penilaian Kelayakan Makanan":
-    email_pengguna = st.text_input("📧 Masukkan Email Anda untuk Notifikasi", "")
     perubahan_fisik = st.checkbox("⚠️ Apakah terdapat perubahan fisik pada makanan?", key="perubahan_fisik")
     
     if st.button("🔎 Cek Kelayakan"):
