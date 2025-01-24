@@ -1,7 +1,6 @@
 import streamlit as st
 from PIL import Image
 from datetime import datetime
-from tkinter import Tk
 
 # Konfigurasi halaman
 st.set_page_config(page_title="Food Freshness App", page_icon="🍎", layout="wide")
